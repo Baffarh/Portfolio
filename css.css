@@ -1,0 +1,180 @@
+body{
+    margin:0;
+    font-family: 'monseretta' sans-serif;
+  
+}
+
+h3, h5{
+    color: chocolate;
+
+}
+h5{
+    font-size:1.4rem ;
+    font-weight: 500;
+}
+p{
+    font-size: 1.1rem;
+}
+h3{
+    font-size: 2.3rem;
+    font-weight: 600px;
+}
+hr{
+    border-style: dotted;
+    border-top: 0%;
+    border: width 10px;
+    border-color: black;
+    width: 5px;;
+    margin: 4% auto;
+}
+.nav_container{
+    padding:1% 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: grey;
+    z-index: 3;
+    border: 2px solid black;
+    height: 10%;
+}
+.sitename{
+    display: inline-block;
+    margin-top: 1%;
+}
+.sitename h2{
+    margin: 0;
+    margin-top: 3%;
+}
+.navigation_links{
+    float: right;
+    margin-top: 2% !important;
+    width: 30%;
+    margin: 0%;
+    text-align: right;
+    text-align: center;
+
+}
+.navigation_links a{
+    top: 0%;
+    margin: auto 2%;
+    
+}
+.navigation_links a:hover{
+    color: red;
+}
+.section_one{
+    background-color:blue;
+    text-align: center;
+    position: relative;
+    height:100%;
+    padding-top:4%;
+    margin-top: 5vh;
+}
+.section_one h1{
+    font-size:2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif; font-style: italic;
+    margin-top: 15vh;
+}
+.section_one p{
+    font-size: 2.2rem;
+    margin: 3% 0;
+}
+.section_one p span{
+    text-decoration:underline;
+}
+.cloud_one, .cloud_two{
+    position: absolute;
+    margin-top: 5vh;
+}
+.cloud_one{
+    top: 5%;
+    right: 15%;
+}
+.cloud_two{
+    bottom: 40%;
+    left: 20%;
+}
+ /* section_two */
+.section_two{
+    padding: 5% 25%;
+}
+ .profile_container{
+     text-align: center;
+
+ }
+ a{
+     text-decoration: none;
+ }
+ .profile_img{
+     height: 250px;
+     width: 250px;
+     border-radius: 50%;
+ }
+ .profile_container p{
+     width: 40%;
+     margin: 5% auto;
+ }
+.skills_container h3{
+    margin:5% 0 7%;
+    text-align: center;
+}
+.skills_container img{
+    width: 20;
+    height: 120px;
+}
+.skill_one img, .skill_three img{
+    float: left;
+    margin-right: 4%;
+    padding-top: 2%;
+}
+.skill_two img{
+    float: right;
+    margin-right: 3%;
+    padding-top: 2%;
+}
+
+.contact_me_container h5{
+    font-size: 1.25rem;
+}
+.contact_me_container p{
+    margin-bottom: 5%;
+}
+.contact_me_container h3{
+    text-align: center;
+}
+.contact_me_container a{
+    color: whitesmoke;
+    background-color: blue;
+    padding: 2% 4%;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-left: 35%;
+    
+    
+}
+.contact_me_container a:hover{
+    background-color: black;
+    color:steelblue;
+}
+.link a{
+    margin: 0 3%;
+    color: black;
+}
+.link a:hover{
+    color: white;
+}
+footer{
+    height: 12vh;
+    background-color:blue;
+    text-align: center;
+    padding-top: 5%;
+    color: black;
+}
+footer p{
+    margin-top:3% 0 ;
+    font-size:0.8rem;
+    color: white;
+    margin-top: 2%;
+}
